@@ -1,4 +1,4 @@
-app.controller('weatherController', ['$scope', '$http', '$location', function ($scope, $http, $location)  {
+gitapp.controller('weatherController', ['$scope', '$http', '$location', function ($scope, $http, $location)  {
 
   var city = $location.url().substring(1);
   $scope.city = city;
