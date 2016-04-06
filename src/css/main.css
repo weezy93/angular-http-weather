@@ -1,1 +1,26 @@
 /* add custom styles */
+html {
+  font-size: 16px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  display: inline-block;
+  color: white;
+  margin: auto;
+  font-size: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li a:hover {
+  color: #ed741c;
+  text-decoration: none;
+}
